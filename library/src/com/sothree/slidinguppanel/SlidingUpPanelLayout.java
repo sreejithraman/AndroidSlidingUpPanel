@@ -492,7 +492,7 @@ public class SlidingUpPanelLayout extends ViewGroup {
                 mSlideableView = child;
                 mCanSlide = true;
             } else {
-                height -= panelHeight;
+                //height -= panelHeight;
             }
 
             int childWidthSpec;
