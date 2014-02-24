@@ -851,7 +851,7 @@ public class SlidingUpPanelLayout extends ViewGroup {
             } else {
                 mTmpRect.top = Math.max(mTmpRect.top, mSlideableView.getBottom());
             }
-            canvas.clipRect(mTmpRect);
+            //canvas.clipRect(mTmpRect);
             if (mSlideOffset < 1) {
                 drawScrim = true;
             }
